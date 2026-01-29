@@ -439,7 +439,7 @@ def main():
     # Train the model
     model, train_losses, train_accs, val_losses, val_accs, lr_history = train_model(
         model, train_loader, val_loader, criterion, optimizer, scheduler,
-        num_epochs=50, early_stopping_patience=6
+        num_epochs=100, early_stopping_patience=6
     )
     
     # Prepare data as a dictionary
