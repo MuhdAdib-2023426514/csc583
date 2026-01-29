@@ -8,3 +8,5 @@ wheels/
 /Data/
 # Virtual environments
 .venv
+.csv
+.png
